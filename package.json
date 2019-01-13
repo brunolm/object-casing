@@ -1,0 +1,44 @@
+{
+  "name": "case-keys",
+  "version": "0.0.1",
+  "description": "Project",
+  "main": "index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jasmine-ts --config=jasmine.json",
+    "coverage": "nyc npm test",
+    "prepare": "npm test && tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunolm/case-keys.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunolm/case-keys/issues"
+  },
+  "homepage": "https://github.com/brunolm/case-keys#readme",
+  "nyc": {
+    "extension": [
+      ".ts"
+    ],
+    "exclude": [
+      "**/*.spec.ts"
+    ],
+    "reporter": [
+      "lcov"
+    ]
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.3.5",
+    "coveralls": "^3.0.2",
+    "jasmine": "^3.3.1",
+    "jasmine-spec-reporter": "^4.2.1",
+    "jasmine-ts": "^0.3.0",
+    "nyc": "^13.1.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  }
+}
