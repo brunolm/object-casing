@@ -36,7 +36,6 @@ obj = {
 */
 
 const objToDb = caseKeys(obj, snakeCase)
-
 /*
 objToDb = {
   id: 1,
