@@ -1,3 +1,0 @@
-# full-stack-project
-
-Project
