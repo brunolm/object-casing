@@ -1,7 +1,7 @@
 {
   "name": "object-casing",
   "version": "0.0.1",
-  "description": "Project",
+  "description": "Walks throught an object using a callback function to convert the object key, returning a new object with new keys.",
   "main": "index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -16,8 +16,17 @@
     "type": "git",
     "url": "git+https://github.com/brunolm/object-casing.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "casing",
+    "object-keys",
+    "camelcase",
+    "snakecase"
+  ],
+  "author": {
+    "email": "brunolm7@gmail.com",
+    "name": "Bruno Leonardo Michels",
+    "url": "http://codingwise.com/"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/brunolm/object-casing/issues"
