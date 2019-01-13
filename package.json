@@ -1,6 +1,6 @@
 {
   "name": "object-casing",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Walks throught an object using a callback function to convert the object key, returning a new object with new keys.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

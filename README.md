@@ -14,8 +14,8 @@ npm i -S object-casing
 ## Example
 
 ```ts
-import camelCase from 'lodash.camelcase'
-import snakeCase from 'lodash.snakecase'
+import * as camelCase from 'lodash.camelcase'
+import * as snakeCase from 'lodash.snakecase'
 
 import { caseKeys } from 'object-casing'
 
