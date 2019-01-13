@@ -1,5 +1,6 @@
 # object-casing
 
+[![npm version](https://badge.fury.io/js/object-casing.svg)](https://badge.fury.io/js/object-casing)
 [![Coverage Status](https://coveralls.io/repos/github/brunolm/object-casing/badge.svg?branch=master)](https://coveralls.io/github/brunolm/object-casing?branch=master)
 
 `object-casing` is a package that walks throught an object using a callback function to convert the object key, returning a new object with new keys.
