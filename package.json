@@ -6,8 +6,11 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "jasmine-ts --config=jasmine.json",
+    "lint": "tslint --project .",
+    "build": "tsc -p .",
     "coverage": "nyc npm test",
-    "prepare": "npm test && tsc -p ."
+    "coveralls": "coveralls < ./coverage/lcov.info",
+    "prepare": "npm run lint && npm run test && npm run build"
   },
   "repository": {
     "type": "git",
@@ -31,6 +34,7 @@
       "lcov"
     ]
   },
+  "runkitExampleFilename": "runkit.js",
   "devDependencies": {
     "@types/jasmine": "^3.3.5",
     "coveralls": "^3.0.2",
@@ -39,6 +43,9 @@
     "jasmine-ts": "^0.3.0",
     "nyc": "^13.1.0",
     "ts-node": "^7.0.1",
+    "tslint": "^5.12.1",
+    "tslint-config-prettier": "^1.17.0",
+    "tslint-consistent-codestyle": "^1.15.0",
     "typescript": "^3.2.2"
   }
 }

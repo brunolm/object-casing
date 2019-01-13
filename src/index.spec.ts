@@ -24,6 +24,6 @@ describe('caseKeys', () => {
       ],
     }
 
-    expect(caseKeys(input, (value: string) => value.toLowerCase())).toEqual(expected)
+    expect(caseKeys(input, (value) => value.toLowerCase())).toEqual(expected)
   })
 })
