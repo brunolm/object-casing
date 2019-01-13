@@ -1,5 +1,5 @@
 // import { caseKeys } from 'mirror-keys';
-const { caseKeys } = require('case-keys');
+const { caseKeys } = require('object-casing');
 
 const toLower = (value) => value.toLowerCase()
 

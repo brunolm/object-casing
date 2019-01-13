@@ -1,5 +1,5 @@
 {
-  "name": "case-keys",
+  "name": "object-casing",
   "version": "0.0.1",
   "description": "Project",
   "main": "index.js",
@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brunolm/case-keys.git"
+    "url": "git+https://github.com/brunolm/object-casing.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/brunolm/case-keys/issues"
+    "url": "https://github.com/brunolm/object-casing/issues"
   },
-  "homepage": "https://github.com/brunolm/case-keys#readme",
+  "homepage": "https://github.com/brunolm/object-casing#readme",
   "nyc": {
     "extension": [
       ".ts"
